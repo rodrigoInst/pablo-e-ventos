@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="css/stylesbasico.css" rel="stylesheet">
+    <link href="css/stylesinicio.css" rel="stylesheet">
+    <title>Pablo Eventos</title>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="img/foto-pablo.jpg" alt="Logo" class="rounded-circle me-2" style="width: 40px; height: 40px;">
+                <h2>PABLO EVENTOS</h2>
+            </a>
+
+            <!-- Menú pantallas chicas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Opciones -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-underline ms-auto"> <!-- me-auto mb-2 mb-lg-0 -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-5 mx-4 active" aria-current="page"
+                            href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-5 mx-4" href="galeriaalbum.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-5 mx-4" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white fs-5 mx-4" href="#"
+                         role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-gear"></i></a>
+                        <ul class="dropdown-menu custom-dropdown">
+                            <li><a class="dropdown-item" href="#">Fuente: Chica</a></li>
+                            <li><a class="dropdown-item" href="#">Fuente: Mediana</a></li>
+                            <li><a class="dropdown-item" href="#">Fuente: Grande</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- PRESENTACION -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>El Trabajo de Pablo:<br> La Magia Detrás de Eventos Inolvidables</h1>
+            <hr>
+            <!-- <p>Conocé a Pablo, un apasionado organizador de eventos con años de experiencia creando momentos inolvidables. Desde bodas íntimas hasta grandes conferencias, Pablo combina creatividad y planificación estratégica para transformar ideas en realidades. Su enfoque se centra en cada detalle, asegurando que los eventos no solo cumplan, sino superen las expectativas. Además, trabaja de la mano con su equipo y los clientes para garantizar experiencias únicas y memorables. Ya sea que busques inspiración o soluciones innovadoras, Pablo es el aliado perfecto para que tu evento sea todo un éxito.</p> -->
+            <!-- Texto para pantallas grandes -->
+            <p class="d-none d-md-block">
+                Conocé a Pablo, un apasionado organizador de eventos con años de experiencia creando momentos inolvidables. Desde bodas íntimas hasta grandes conferencias, Pablo combina creatividad y planificación estratégica para transformar ideas en realidades. Su enfoque se centra en cada detalle, asegurando que los eventos no solo cumplan, sino superen las expectativas. Además, trabaja de la mano con su equipo y los clientes para garantizar experiencias únicas y memorables. Ya sea que busques inspiración o soluciones innovadoras, Pablo es el aliado perfecto para que tu evento sea todo un éxito.
+            </p>
+            <!-- Texto para pantallas pequeñas -->
+            <p class="d-block d-md-none">
+                Acompaña a Pablo, experto organizador de eventos, y descubre sus mejores estrategias para crear experiencias memorables. Aprende a gestionar cada detalle y superar los desafíos comunes en la organización de eventos. Ideal para quienes inician en el campo o buscan perfeccionar sus habilidades. ¡No te lo pierdas!
+            </p>
+        </div>
+    </section>
+
+    <!-- FLECHA HACIA ABAJO -->
+    <div class="flecha">
+        <h2><i class="bi bi-chevron-double-down"></i></h2>
+    </div>
+
+    <!-- PROX CONFERENCIAS -->
+    <section class="prox-conf container">
+        <h1>Próximas conferencias</h1>
+        <hr>
+
+        <!-- PRIMERA FILA CONFERENCIAS -->
+        <div class="row mt-4">
+            <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                <div class="card text-center mb-3" style="width: auto;">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Claves para organizar eventos exitosos</h4>
+                        <div class="conference-info text-muted mb-3">
+                            <div class="d-flex justify-content-center gap-4 mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-calendar" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">18/12/2024</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-watch" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">08:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill" style="font-size: 1.3rem;"></i>
+                                <span class="ms-2">Casa Meraki - Eventos</span>
+                            </div>
+                        </div>
+                        <!-- Descripción -->
+                        <p class="card-text">Acompaña a Pablo, experto organizador de eventos, y descubre sus mejores estrategias para crear experiencias memorables. Aprende a gestionar cada detalle y superar los desafíos comunes en la organización de eventos. Ideal para quienes inician en el campo o buscan perfeccionar sus habilidades. ¡No te lo pierdas!</p>
+                        <a href="conferencia.html" class="btn btn-primary mas-info-btn">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                <div class="card text-center mb-3" style="width: auto;">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Estrategias para un resultado impecable</h4>
+                        <div class="conference-info text-muted mb-3">
+                            <div class="d-flex justify-content-center gap-4 mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-calendar" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">25/12/2024</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-watch" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">10:00 AM</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill" style="font-size: 1.3rem;"></i>
+                                <span class="ms-2">Auditorio Principal</span>
+                            </div>
+                        </div>
+                        <!-- Descripción -->
+                        <p class="card-text">Acompaña a Pablo, experto organizador de eventos, y descubre sus mejores estrategias para crear experiencias memorables. Aprende a gestionar cada detalle y superar los desafíos comunes en la organización de eventos. Ideal para quienes inician en el campo o buscan perfeccionar sus habilidades. ¡No te lo pierdas!</p>
+                        <a href="conferencia.html" class="btn btn-primary mas-info-btn">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                <div class="card text-center mb-3" style="width: auto;">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Cómo llevar tus eventos a otro nivel</h4>
+                        <div class="conference-info text-muted mb-3">
+                            <div class="d-flex justify-content-center gap-4 mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-calendar" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">25/12/2024</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-watch" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">10:00 AM</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill" style="font-size: 1.3rem;"></i>
+                                <span class="ms-2">Auditorio Principal</span>
+                            </div>
+                        </div>
+                        <!-- Descripción -->
+                        <p class="card-text">Acompaña a Pablo, experto organizador de eventos, y descubre sus mejores estrategias para crear experiencias memorables. Aprende a gestionar cada detalle y superar los desafíos comunes en la organización de eventos. Ideal para quienes inician en el campo o buscan perfeccionar sus habilidades. ¡No te lo pierdas!</p>
+                        <a href="conferencia.html" class="btn btn-primary mas-info-btn">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                <div class="card text-center mb-3" style="width: auto;">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Estrategias innovadoras en la organización de eventos</h4>
+                        <div class="conference-info text-muted mb-3">
+                            <div class="d-flex justify-content-center gap-4 mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-calendar" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">25/12/2024</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-watch" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">10:00 AM</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill" style="font-size: 1.3rem;"></i>
+                                <span class="ms-2">Auditorio Principal</span>
+                            </div>
+                        </div>
+                        <!-- Descripción -->
+                        <p class="card-text">Acompaña a Pablo, experto organizador de eventos, y descubre sus mejores estrategias para crear experiencias memorables. Aprende a gestionar cada detalle y superar los desafíos comunes en la organización de eventos. Ideal para quienes inician en el campo o buscan perfeccionar sus habilidades. ¡No te lo pierdas!</p>
+                        <a href="conferencia.html" class="btn btn-primary mas-info-btn">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEGUNDA FILA CONFERENCIAS -->
+        <div id="extraRows" class="row mt-2 d-none">
+            <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                <div class="card text-center mb-3" style="width: auto;">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Claves para organizar eventos exitosos</h4>
+                        <div class="conference-info text-muted mb-3">
+                            <div class="d-flex justify-content-center gap-4 mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-calendar" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">18/12/2024</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-watch" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">08:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill" style="font-size: 1.3rem;"></i>
+                                <span class="ms-2">Casa Meraki - Eventos</span>
+                            </div>
+                        </div>
+                        <!-- Descripción -->
+                        <p class="card-text">Acompaña a Pablo, experto organizador de eventos, y descubre sus mejores estrategias para crear experiencias memorables. Aprende a gestionar cada detalle y superar los desafíos comunes en la organización de eventos. Ideal para quienes inician en el campo o buscan perfeccionar sus habilidades. ¡No te lo pierdas!</p>
+                        <a href="conferencia.html" class="btn btn-primary mas-info-btn">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                <div class="card text-center mb-3" style="width: auto;">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Estrategias para un resultado impecable</h4>
+                        <div class="conference-info text-muted mb-3">
+                            <div class="d-flex justify-content-center gap-4 mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-calendar" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">25/12/2024</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-watch" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">10:00 AM</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill" style="font-size: 1.3rem;"></i>
+                                <span class="ms-2">Auditorio Principal</span>
+                            </div>
+                        </div>
+                        <!-- Descripción -->
+                        <p class="card-text">Acompaña a Pablo, experto organizador de eventos, y descubre sus mejores estrategias para crear experiencias memorables. Aprende a gestionar cada detalle y superar los desafíos comunes en la organización de eventos. Ideal para quienes inician en el campo o buscan perfeccionar sus habilidades. ¡No te lo pierdas!</p>
+                        <a href="conferencia.html" class="btn btn-primary mas-info-btn">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                <div class="card text-center mb-3" style="width: auto;">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Cómo llevar tus eventos a otro nivel</h4>
+                        <div class="conference-info text-muted mb-3">
+                            <div class="d-flex justify-content-center gap-4 mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-calendar" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">25/12/2024</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-watch" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">10:00 AM</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill" style="font-size: 1.3rem;"></i>
+                                <span class="ms-2">Auditorio Principal</span>
+                            </div>
+                        </div>
+                        <!-- Descripción -->
+                        <p class="card-text">Acompaña a Pablo, experto organizador de eventos, y descubre sus mejores estrategias para crear experiencias memorables. Aprende a gestionar cada detalle y superar los desafíos comunes en la organización de eventos. Ideal para quienes inician en el campo o buscan perfeccionar sus habilidades. ¡No te lo pierdas!</p>
+                        <a href="conferencia.html" class="btn btn-primary mas-info-btn">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0">
+                <div class="card text-center mb-3" style="width: auto;">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Estrategias innovadoras en la organización de eventos</h4>
+                        <div class="conference-info text-muted mb-3">
+                            <div class="d-flex justify-content-center gap-4 mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-calendar" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">25/12/2024</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-watch" style="font-size: 1.3rem;"></i>
+                                    <span class="ms-2">10:00 AM</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center mb-3">
+                                <i class="bi bi-geo-alt-fill" style="font-size: 1.3rem;"></i>
+                                <span class="ms-2">Auditorio Principal</span>
+                            </div>
+                        </div>
+                        <!-- Descripción -->
+                        <p class="card-text">Acompaña a Pablo, experto organizador de eventos, y descubre sus mejores estrategias para crear experiencias memorables. Aprende a gestionar cada detalle y superar los desafíos comunes en la organización de eventos. Ideal para quienes inician en el campo o buscan perfeccionar sus habilidades. ¡No te lo pierdas!</p>
+                        <a href="conferencia.html" class="btn btn-primary mas-info-btn">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VER MAS -->
+        <div class="pt-2 pb-3 text-center">
+            <button id="verMasBtn" class="btn btn-outline-dark ver-mas-btn">>> Ver más <<</button>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="p-4 mt-5 text-center">
+
+        <h3 class="text-white">Contactos</h3>
+
+        <div class="d-flex justify-content-center align-items-center flex-wrap">
+            <!-- Teléfono fijo -->
+            <div class="d-flex align-items-center p-4">
+                <i class="fas fa-phone-alt me-2" style="font-size: 1.5rem; color: #000;"></i>
+                <a href="tel:+541112345678" target="_blank" class="text-decoration-none text-white">+54 11 1234-5678</a>
+            </div>
+            <!-- WhatsApp -->
+            <div class="d-flex align-items-center p-4">
+                <i class="fab fa-whatsapp me-2" style="font-size: 1.5rem; color: #25D366;"></i>
+                <a href="https://wa.me/5491198765432" target="_blank" class="text-decoration-none text-white">+54 9 11
+                    9876-5432</a>
+            </div>
+            <!-- Instagram -->
+            <div class="d-flex align-items-center p-4">
+                <i class="fab fa-instagram me-2" style="font-size: 1.5rem; color: #ac2bac;"></i>
+                <a href="https://www.instagram.com/pablo.eventos" target="_blank"
+                    class="text-decoration-none text-white">@pablo.eventos</a>
+            </div>
+            <!-- Facebook -->
+            <div class="d-flex align-items-center p-4">
+                <i class="fab fa-facebook-f me-2" style="font-size: 1.5rem; color: #3b5998;"></i>
+                <a href="https://www.facebook.com/pabloeventos" target="_blank"
+                    class="text-decoration-none text-white">Pablo Eventos</a>
+            </div>
+            <!-- Gmail -->
+            <div class="d-flex align-items-center p-4">
+                <i class="fas fa-envelope me-2" style="font-size: 1.5rem; color: #D44638;"></i>
+                <a href="mailto:infopev@gmail.com" target="_blank"
+                    class="text-decoration-none text-white">infopev@gmail.com</a>
+            </div>
+        </div>
+
+        <div class="text-center text-secondary pb-3">
+            © COPYRIGHT 2024 : Todos los derechos reservados a Pablo.
+        </div>
+    </footer>
+
+    <!-- BOTON BACK TO TOP -->
+    <button id="backToTop" class="btn btn-primary">
+        ↑
+    </button>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // BOTON VER MAS
+        document.getElementById('verMasBtn').addEventListener('click', function () {
+            var extraRows = document.getElementById('extraRows');
+            if (extraRows.classList.contains('d-none')) {
+                extraRows.classList.remove('d-none');
+                this.textContent = '>> Ver menos <<';
+            } else {
+                extraRows.classList.add('d-none');
+                this.textContent = '>> Ver más <<';
+            }
+        });
+
+        window.addEventListener("scroll", function () {
+            const backToTop = document.getElementById("backToTop");
+            if (window.scrollY > 100) {
+                backToTop.style.display = "block";
+            } else {
+                backToTop.style.display = "none";
+            }
+        });
+
+        document.getElementById("backToTop").addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

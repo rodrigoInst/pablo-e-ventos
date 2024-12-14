@@ -1,0 +1,193 @@
+/* PRESENTACION INICIAL */
+.hero {
+    position: relative;
+    height: 85vh;
+    background-image: url('/img/ref4.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.95);
+}
+
+.hero-content hr {
+    border: none;
+    border-top: 3px solid #ffffff;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.hero-content p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.95);
+}
+
+@media (min-width: 990px) {
+    .hero-content p {
+        padding-inline: 200px;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.95);
+    }
+}
+
+.flecha {
+    text-align: center;
+    margin-block: 1rem;
+}
+/* PRESENTACION INICIAL */
+
+/* PROX CONFERENCIAS */
+.prox-conf h1 {
+    margin-bottom: 1rem;
+}
+
+.prox-conf hr {
+    border-top: 3px solid #000000;
+    width: 50%;
+    margin: 1rem start;
+}
+/* PROX CONFERENCIAS */
+
+/* BOTON MAS INFO */
+.mas-info-btn {
+    background-color: #2B4B6A;
+    border-color: #2B4B6A;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.mas-info-btn:hover {
+    background-color: #355A7C; 
+    transform: scale(1.05);
+}
+/* BOTON MAS INFO */
+
+/* BOTON VER MAS */
+.ver-mas-btn {
+    display: inline-block;
+    background-color: #1A2E45;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-size: 1rem;
+}
+
+.ver-mas-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .ver-mas-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+/* BOTON VER MAS */
+
+/* CARDS PROX CONF */
+.conference-info {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+.conference-info i {
+    font-size: 1.4rem;
+    color: #6c757d;
+}
+
+.conference-info span {
+    color: #6c757d;
+}
+
+.conference-info .d-flex {
+    margin-bottom: 8px;
+}
+
+.conference-info .d-flex.justify-content-center {
+    width: 100%;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+/* CARDS PROX CONF */
+
+
+
+.custom-dropdown {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+}
+
+.custom-dropdown {
+    background-color: #2B4B6A;
+}
+
+.custom-dropdown .dropdown-item {
+    color: #ffffff;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: #355A7C;
+    color: white; 
+}
+
+
+
+/* BOTON BACK TO TOP */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #2B4B6A;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#backToTop:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    #backToTop {
+        display: none !important;
+    }
+}
+/* BOTON BACK TO TOP */
